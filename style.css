@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.nav h4{
+    font-weight: 300;
+    line-height: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* border: 5px solid red; */
+}
+.navbar .navleft{
+    width: 15%;
+    height: inherit;
+    border: 1px solid black;
+    float: left;
+    line-height: 80px;
+    padding-left: 5%;
+    background-color: #D6FF38;
+}
+.navleft a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+.navbar .navright{
+    width: 85%;
+    height: inherit;
+    float: left;
+    line-height: 80px;
+}
+.navright a{
+    border-right: 1px solid black;
+   float: right;
+   margin-inline: 40px;  
+   padding-right: 90px;
+   text-decoration: none;
+   color: black;
+}
+.navright #b{
+    margin-inline:5px;
+}
+.navright img{
+    margin-top: 10px;
+    margin-inline: 10px;
+    height: 30px;   
+}
+.main{
+    margin-top: 30px;
+    border: 1px solid red;
+    text-align: center;
+}
+.main h1{
+    font-size: 65px;
+    font-weight: 900;
+}
+.main h3{
+    width: 20%;
+    height: 30px;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-left: 40%;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #D6FF38;
+}
+.hero{
+    width: 100%;
+    height: 520px;
+    border: 1px solid red;
+    padding-inline: 10px;
+    padding-top: 70px;
+}
+.ahero img{
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+    /* padding-left: 10px; */
+}
+.bhero img{
+    width: 50%;
+    /* height: 500px; */
+    float: left;
+    padding-right: 10px;
+}
+.chero img{
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+}
+.a{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.tshirt{
+    width: 100%;
+    height: 1200px;
+    border: 1px solid red;
+    padding-top: 80px;
+}
+.tshirt .imga{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.tshirt .imgb{
+    margin-inline: 40px;
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.tshirt .imgc{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-inline: 40px;
+    margin-top: 20px;
+}
+.tshirt .imgd{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-inline: 20px;
+}
+.tshirt h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.tshirt h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    /* margin-left: 60px; */
+}
+.button button{
+    width: 17%;
+    height: 40px;
+    background-color: black;
+    margin-top: 60px;
+}
+.button a{
+    font-size: 19px;
+    color: #C9FF2B;
+    text-decoration: none;
+}
+.sale{
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+.sale .saleleft{
+    width: 60%;
+    height: inherit;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: center;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(216,255,65,1) 100%);
+}
+.sale .saleleft i{
+    font-size: 80px;
+    margin-top: 20%;
+}
+.sale .saleleft h6{
+    margin-top: 30px;
+}
+.sale .saleleft h1{
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-weight: 900;
+}
+.sale .saleright{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid green;  */
+    float: left;
+}
+.sale .saleright img{
+    width: 100%;
+    height: 500px;
+}
+.off{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 30px;
+}
+.off a{
+    text-decoration: underline;
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    /* margin-top: 10px; */
+}
+.off img{
+    margin-inline: 120px;
+    width:60px;
+    margin-top: 5px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+     margin-top: 50px;
+}
+.footer .footera{
+    width: 30%;
+    height: inherit;
+    /* border: 1px solid red; */
+    background-color: black;
+    padding-top: 90px;
+    float: left;
+}
+.footer .footera a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800; 
+    font-size: 20px;  
+    margin-left: 40%;
+}
+.footer .footera h5{
+    color: white;
+    font-weight: 400; 
+    margin-top: 20px;   
+    font-size: 20px;
+    margin-left: 40%;
+}
+.footer .footera h4{
+    color: white;
+    font-weight: 400; 
+    font-size: 15px;
+    /* margin-top: 50px; */
+    margin-left: 40%;
+}
+.footer.footerb{
+    /* height: 250px; */
+    float: left;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.footer .footerbb p{
+    float: left;
+    font-size: 20px;
+}
+.footer .footerb h5 #a{
+    margin-top: 10px;
+    float: left;
+}
+
+.footerb .footerbb{
+    float: left;
+}
+.footerb .footerba{
+    float: left;
+    margin-inline: 150px;
+}
+.footerb .footerbc{
+    float: left;
+}
+.footerc{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    line-height: 80px;
+}
+.footerc .footerca{
+    width: 30%;
+    height: inherit;
+    border-right: 1px solid black;
+    text-align: center;
+    float: left;
+}
+.footerc .footerca {
+        font-size: 20px;
+}
+.footerc .footercb{
+    width: 70%;
+    height: inherit;
+    /* border: 1px solid red; */
+    text-align: center;
+    float: right;
+    background-color: #D6FF38;
+}
