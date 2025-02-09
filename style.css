@@ -267,6 +267,11 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(216,255,65,1) 
     margin-top: 50px;
     margin-left: 20%;
 }
+.footerbb{
+    margin-top: 70px;
+    margin-left: 19%;
+    float: left;
+}
 .footer .footerbb p{
     float: left;
     font-size: 20px;
@@ -276,14 +281,13 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(216,255,65,1) 
     float: left;
 }
 
-.footerb .footerbb{
-    float: left;
-}
 .footerb .footerba{
     float: left;
     margin-inline: 150px;
+    margin-top: 70px;
 }
 .footerb .footerbc{
+    margin-top: 70px;
     float: left;
 }
 .footerc{
